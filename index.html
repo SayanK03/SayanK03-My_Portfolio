@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="mypicture.jpeg" alt="My Picture" class="profile-pic">
+            <h1>Sayan's Portfolio</h1>
+            
+            <div class="contact-info">
+                <a href="mailto:your-email@example.com" class="contact-link">Email: sayankundu155@gmail.com</a> |
+                <a href="https://github.com/SayanK03" class="contact-link">GitHub</a> |
+                <a href="https://www.linkedin.com/in/sayan-kundu-6a1938253?" class="contact-link">LinkedIn</a> |
+                <span >Phone: +91 6289566977</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I’m a passionate developer with a love for creativity and innovation. Currently learning Machine Learning and Front-End Development (HTML and CSS is done). Here’s a brief overview of my journey.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>ML Project 1:
+                        <a href="https://github.com/SayanK03/Fake_News_Prediction.git">Fake_News_Prediction</a>
+                    </h3>
+                    </h3>
+                    <p>Here I made a Fake News Prediction System by using "Logistic Regressio Model".</p>
+                    <p>I used some Python Library  like Pandas, Numpy , Sklearn and nltk.</p>
+                    <p>In this Predictive System I first add some news data in a CSV file format. Then by using this predictive system we can know wheather the news is 'Real' or 'Fake'. If the output comes 0 that means the news is Real and if it comes 1 it means the news is Fake.</p>
+                </div>
+                <div class="project">
+                    <h3>ML Project 2:
+                        <a href="https://github.com/SayanK03/Customer_Segmentation_using_KMeans_Clustering_with_Python_Machine_learning.git">Customer_Segmentation</a>
+                    </h3>
+                    <p>Here I made a Customer Segmentation System by using "K-Meas Clusturing".</p>
+                    <p>I used some Python Library like Pandas, Numpy , Matplotlib , Seaborn, Sklearn.cluster .</p>
+                    <P>In this System I first add some coustomer data in a CSV file format. Then by using the system we can plot a scatterplot which show the different customer cluster. With the help of this system the company can know which customer come daily and buy there product. It will help the company for its business purpose.</P>
+                </div>
+                <div class="project">
+                    <h3>ML Project 3:
+                        <a href="https://github.com/SayanK03/Movie_Recomendation_System_Machine_Learning.git">Movie_Recommendation_System</a>
+                    </h3>
+                    <p>Here I made a movie recommendation system by using machine Learning "difflib" Library which is used to give us the close match.</p>
+                    <p>I used some Python Library  like Pandas, Numpy , difflib, Sklearn.cluster .</p>
+                    <P>In this System the user can put any Hollywood Movie name as a input and the system will provided the original Movie first then give some other similer movies . If the movie is not in the file it can also give those movies name which are similer to it.</P>
+                </div>
+                <div class="project">
+                    <h3>Frontend Project 1:
+                        <a href="https://github.com/SayanK03/My_Portfolio.git">My Portfolio</a>
+                    </h3>
+                    <p>Built with HTML, CSS, and a little JavaScript.</p>
+                </div>
+                <div class="project">
+                    <h3>Frontend Project 2:
+                        <a href="https://sayank03.github.io/SayanK03-Gym_Website1/">Gym Website</a>
+                    </h3>
+                    <p>Developed a responsive single-page gym website using HTML, CSS, and JavaScript, ensuring seamless navigation and user-friendly interface. </p>
+                    <p>Implemented interactive features to enhance user engagement and optimize user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sayan Kundu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
